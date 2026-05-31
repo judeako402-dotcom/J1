@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J1</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="chrome">
+      <div id="nav-bar">
+        <button id="back-btn" class="nav-btn" title="Back">&lt;</button>
+        <button id="fwd-btn" class="nav-btn" title="Forward">&gt;</button>
+        <button id="reload-btn" class="nav-btn" title="Reload">&#8635;</button>
+        <button id="home-btn" class="nav-btn" title="Home">Home</button>
+        <div id="url-bar-container">
+          <input id="url-input" type="text" placeholder="Enter URL or search..." />
+        </div>
+      </div>
+    </div>
+    <div id="content-area"></div>
+    <div id="loading-bar"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
